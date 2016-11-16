@@ -1,0 +1,42 @@
+body{
+	background:#fff;
+	margin:0px;
+}
+.blueBack{
+	top:0;
+	left:0;
+	position:fixed;
+	width:100%;
+	height:100%;
+	opacity:0;
+	z-index:-1;
+	background:#0769ad;
+}
+.loginString{
+	position:absolute;
+	top:50%;
+	width:100%;
+	opacity:0;
+	text-align:center;
+	color:#fff;
+	font-size:2px;
+}
+.logoffBlock{
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:100px;
+}
+.userName{
+	color:#fff;
+}
+.logoutButton{
+	color:#fff;
+	border:#fff solid 1px;
+	border-radius:5px;
+	padding:5px;
+	background:#0e72b8;
+}
+.logoutButton:hover{
+	background:#057ed2;
+}
